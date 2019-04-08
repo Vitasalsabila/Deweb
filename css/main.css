@@ -7,7 +7,7 @@ body,html{
     width: 100%;
     height: 100%;
     text-align: center;
-    
+    padding-top: 50px ;
 }
 
 .judul{
@@ -26,6 +26,7 @@ body,html{
     
 }.isi{
 }
+
 .section2{
     padding: 100px 0px ;
     background: #7285a5 ;    
@@ -37,4 +38,17 @@ body,html{
 }
 .col-kanan{
     background: #131e3a ;    
+}
+.section3{
+    min-height: 300px ;
+    padding: 50px 0px ;
+    background: #131e3a  ; 
+}
+.link{
+    padding: 10px 15px ;
+    
+}
+.link:hover {
+    background: #7285a5 ;
+    color: aliceblue ;
 }

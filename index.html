@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Ini Halaman Index</title>
+        <title>NASA</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -12,24 +12,41 @@
     </head>
     <body>
         <!--navbar-->
-        
+         <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnya">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarnya">
+                    <div class="navbar-nav">
+                        <a class="link" href="#Home">Home </a>
+                        <a class="link" href="#Profile">Profile</a>
+                        <a class="link" href="#About Us">About Us</a>
+                        <a class="link" href="https://twitter.com/nasa
+" target="_blank">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <!--section 1-->
-        <section class="section1">
+        <section class="section1" id="Home">
             <img src="img/nasa.png" width="300px">
             <h1 class="judul">
             <strong>NASA</strong>
             </h1>
             <h2 class="sub-judul">
+                National Aeronautics and Space Administration
+                <br>
                 Un-official NASA web
             </h2>
         </section>
         <!--section2--->
-        <section class="section2">
+        <section class="section2" id="Profile">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-kiri">
-                    <h1 class="judul">Ini adalah website menu </h1>
-                    <h2 class="sub-judul">Ini adalah halaman sub</h2>
+                    <h1 class="judul">NASA</h1>
+                    <h2 class="sub-judul">National Aeronautics and Space Administration</h2>
                 </div>
                 <div class="col-md-6 col-kanan">
                 <img src="img/nasa.png" width="100px">
@@ -39,11 +56,15 @@
             </section>
         
          <!--section 3-->
-        <section class="section3">
+        <section class="section3" id="About Us">
         <div class="container">
             <div class="col col-kiri">
                 <div class="col">
-                   Aldebaran
+                   The National Aeronautics and Space Administration (NASA, /ˈnæsə/) is an independent agency of the United States Federal Government responsible for the civilian space program, as well as aeronautics and aerospace research.[note 1]
+
+NASA was established in 1958, succeeding the National Advisory Committee for Aeronautics (NACA). The new agency was to have a distinctly civilian orientation, encouraging peaceful applications in space science.[7][8][9] Since its establishment, most US space exploration efforts have been led by NASA, including the Apollo Moon landing missions, the Skylab space station, and later the Space Shuttle. NASA is supporting the International Space Station and is overseeing the development of the Orion Multi-Purpose Crew Vehicle, the Space Launch System and Commercial Crew vehicles. The agency is also responsible for the Launch Services Program which provides oversight of launch operations and countdown management for unmanned NASA launches.
+
+NASA science is focused on better understanding Earth through the Earth Observing System;[10] advancing heliophysics through the efforts of the Science Mission Directorate's Heliophysics Research Program;[11] exploring bodies throughout the Solar System with advanced robotic spacecraft missions such as New Horizons;[12] and researching astrophysics topics, such as the Big Bang, through the Great Observatories and associated programs.
                 </div>
                 <div class="col">
                     VY Canis Majoris
@@ -55,5 +76,9 @@
             </div>
             </div>
             </section>
+        <script type="text/javascript" src="js/wow.min.js"></script>        
+        <script type="text/javascript">
+         new WOW().init();
+        </script>
     </body>
 </html> 
