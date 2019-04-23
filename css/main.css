@@ -44,11 +44,12 @@ body,html{
     background-size: contain;
     padding:30px;
     text-align: center;
+    box-shadow: 5px 5px 8px 8px #301f21;
    
 }
 .bulet {
     border-radius: 50%;
-    border: 2px solid #fff;
+ border: 2px solid white;
     width: 170px;
     height: 170px;
 }
@@ -69,7 +70,7 @@ body,html{
 .sub-judul3 {
     font-family: sans-serif;
     font-size: 20px;
-    color: white;
+    color:  #b75030;
     text-align:justify;
    
 }
@@ -78,6 +79,7 @@ body,html{
     background-position: center;
     padding: 40px;
    text-align: center;
+    box-shadow: 5px 5px 8px 8px #752e18;
 }
 .judul1 {
     font-family: sans-serif;
@@ -85,7 +87,6 @@ body,html{
     color: white;
     width: auto;
     text-align: justify;
-    color: #fef1a8;
 }
 
 .section4{
@@ -98,6 +99,7 @@ body,html{
     background-position: center;
     padding: 40px;
    text-align: center;
+    box-shadow:  5px 5px 8px 8px #aa9b40;
 }
 .sub-judul4 {
     font-family: sans-serif;
@@ -112,7 +114,7 @@ body,html{
     font-size: 30px;
     color: white;
     width: auto;
-    text-align:right;
+    text-align: center;
     color: #df7537;
 }
 .link{
@@ -146,4 +148,5 @@ body,html{
     color: saddlebrown;
     text-align: center;
     font-family: sans-serif;
+    box-shadow:  5px 5px 8px 8px #aa9b40;
 }
